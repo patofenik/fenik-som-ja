@@ -1,0 +1,37 @@
+:root {
+    --bs-primary: #2575fc;
+    --bs-primary-rgb: 37, 117, 252;
+    --bs-link-color: #2575fc;
+    --bs-link-hover-color: #145ac7;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+}
+
+.hero-copy {
+    max-width: 42rem;
+}
+
+.gallery-image {
+    height: 220px;
+    object-fit: cover;
+}
+
+.gallery-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.12) !important;
+}
+
+.contact-card,
+.form-card {
+    max-width: 32rem;
+}
